@@ -4,7 +4,7 @@ import { OrderCreatedEvent, OrderStatus } from "@adamzhangtickets/common";
 import { OrderCreatedListener } from "../order-created-listener";
 import { natsWrapper } from "../../../nats-wrapper";
 import { Ticket } from "../../../models/ticket";
-import { Listener } from "../../../../../common/src/events/base-listener";
+import { Listener } from "@adamzhangtickets/common";
 
 const setup = async () => {
   // Create an instance of the listener

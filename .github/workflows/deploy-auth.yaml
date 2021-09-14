@@ -4,10 +4,9 @@ on:
   push:
     branches:
       - master
-     paths:
+    paths:
       - "auth/**"
- 
- jobs:
+jobs:
    build: 
      runs-on: ubuntu-latest
      steps:
